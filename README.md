@@ -40,9 +40,10 @@ npx json-server --watch db.json --port 5000
 ```
 
 4. **Configure the API Key:**
+   Sign up at OpenWeatherMap for an API key and update WeatherDashboard.js with your API key:
 
 ```
-const apiKey = "a90b8c6cf69bd213125f907471608171";
+const apiKey = "your_api_key";
 ```
 
 5. **Start the Application:**
