@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +34,7 @@ body {
   transform: scale(1.02);
 }
 
-/* Fade-in Animation */
+
 @keyframes fadeIn {
   from {
       opacity: 0;
@@ -83,7 +83,6 @@ body {
   background-color: #216a93;
 }
 
-/* Weather Display Component */
 .weather-display {
   margin-top: 20px;
   border-top: 1px solid #ddd;
@@ -232,7 +231,7 @@ body {
   background-color: #218838;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
   .dashboard {
       width: 90%;

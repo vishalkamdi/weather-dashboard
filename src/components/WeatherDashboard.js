@@ -8,10 +8,9 @@ import Favorites from "./Favorites";
 const WeatherDashboard = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [favorites, setFavorites] = useState([]);
-  const [unit, setUnit] = useState("metric"); // Default to Celsius
+  const [unit, setUnit] = useState("metric");
 
   useEffect(() => {
-    // Fetch favorites from JSON server on component mount
     const fetchFavorites = async () => {
       try {
         const response = await axios.get("http://localhost:5000/favorites");
@@ -74,7 +73,6 @@ const WeatherDashboard = () => {
     setUnit(newUnit);
 
     if (weatherData) {
-      // Refetch weather data with the updated unit
       await fetchWeather(weatherData.city.name, newUnit);
     }
   }, [fetchWeather, unit, weatherData]);
