@@ -28,20 +28,28 @@ A responsive and interactive weather dashboard built using React, which fetches 
 
 2. **Install dependencies:**
 
+```bash
 npm install
+```
 
 3. **Set up the JSON Server:**
 
 Start JSON Server to simulate a local API for managing favorite cities.
 
+```
 npx json-server --watch db.json --port 5000
+```
 
 4. **Configure the API Key:**
 
-const apiKey = "your_api_key";
+```
+const apiKey = "a90b8c6cf69bd213125f907471608171";
+```
 
 5. **Start the Application:**
 
+```
 npm start
+```
 
 This will start the app on http://localhost:3000.
