@@ -22,8 +22,7 @@ A responsive and interactive weather dashboard built using React, which fetches 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/weather-dashboard.git
-   cd weather-dashboard
+   https://github.com/vishalkamdi/weather-dashboard.git
    ```
 
 2. **Install dependencies:**
